@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     // Inicializar a referência do socket apenas uma vez
-    socketRef.current = io('https://chat-bvpq.vercel.app');
+    socketRef.current = io('http://localhost:3000');
 
     // Adicionar o listener para o evento 'listen'
     socketRef.current.on('listen', data => {
