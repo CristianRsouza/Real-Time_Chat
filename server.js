@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://chat-jade-gamma.vercel.app',
+    origin: 'https://chat-bvpq.vercel.app',
   }
 });
 
